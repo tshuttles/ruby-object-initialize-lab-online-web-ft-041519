@@ -5,4 +5,5 @@ class Dog
   end 
   breed.each do |default_breed|
     instance_variable_set("@#{default_breed}", v) unless breed.nil?
+  end 
 end 
